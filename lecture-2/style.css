@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+.m-0 {
+    margin: 0;
+}
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+.f-left{
+    float: left;
+}
+.top-section {
+    height: 100px; 
+    background-color: black;
+}
+.bottom-section {
+    height: calc( 100vh - 100px );
+}
+.section-1 {
+    width: 200px; 
+    height: 100%;
+    background-color: green;
+}
+.section-2 {
+    width: calc( 100% - 200px );
+    height: calc( 100% - 200px ); 
+    background-color: yellow;
+    padding: 0 20px;
+    position: relative;
+}
+.section-3 {
+    width: calc( 100% - 200px );
+    height: 200px; 
+    background-color: pink;
+}
+
+.help {
+    padding: 20px 50px;
+    background-color: tomato;
+    color: white;
+    display: inline-block;
+    border-radius: 30px;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+
+.help-small {
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+    display: inline-block;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
